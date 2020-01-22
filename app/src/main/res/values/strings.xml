@@ -1,0 +1,65 @@
+<!--
+  Copyright 2016 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <string name="app_name">Material Me!</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">News</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_pellentesque_efficitur_a_purus_sit_amet_gravida_etiam_mauris_odio_consequat_molestie_lacus_sit_amet_rhoncus_tristique_turpis_sed_eget_dolor_euismod_ultrices_diam_nec_molestie_eros_suspendisse_arcu_risus_fermentum_in_erat_at_rhoncus_iaculis_neque_aliquam_erat_volutpat_aliquam_sed_turpis_sollicitudin_pulvinar_justo_ut_tempus_libero_phasellus_neque_leo_molestie_at_odio_a_sollicitudin_tristique_lectus_morbi_lorem_ipsum_facilisis_ut_purus_id_vehicula_tempor_nibh_morbi_cursus_felis_et_turpis_pharetra_eget_egestas_tortor_sollicitudin_praesent_facilisis_lorem_velit_quis_bibendum_dolor_euismod_vel_sed_malesuada_accumsan_enim_eget_mollis_cras_a_quam_lacinia_fermentum_augue_ut_consequat_nunc_pellentesque_vehicula_nisl_vel_ante_pellentesque_varius_proin_dapibus_volutpat_urna_a_posuere_praesent_et_nibh_iaculis_placerat_nisi_at_porta_neque_nulla_sit_amet_consequat_lorem_pellentesque_habitant_morbi_tristique_senectus_et_netus_et_malesuada_fames_ac_turpis_egestas_suspendisse_gravida_orci_et_interdum_rutrum_orci_neque_condimentum_nulla_vel_viverra_arcu_nunc_eu_ante_pellentesque_feugiat_eleifend_volutpat_pellentesque_interdum_facilisis_euismod_proin_egestas_diam_sed_laoreet_pulvinar_maecenas_massa_augue_tempor_quis_lacus_nec_luctus_consectetur_nisi_morbi_vulputate_dolor_quis_vestibulum_tempus_pellentesque_habitant_morbi_tristique_senectus_et_netus_et_malesuada_fames_ac_turpis_egestas">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur a purus sit amet gravida. Etiam mauris odio, consequat molestie lacus sit amet, rhoncus tristique turpis. Sed eget dolor euismod, ultrices diam nec, molestie eros. Suspendisse arcu risus, fermentum in erat at, rhoncus iaculis neque. Aliquam erat volutpat. Aliquam sed turpis sollicitudin, pulvinar justo ut, tempus libero. Phasellus neque leo, molestie at odio a, sollicitudin tristique lectus. Morbi lorem ipsum, facilisis ut purus id, vehicula tempor nibh. Morbi cursus felis et turpis pharetra, eget egestas tortor sollicitudin. Praesent facilisis lorem velit, quis bibendum dolor euismod vel. Sed malesuada accumsan enim eget mollis. Cras a quam lacinia, fermentum augue ut, consequat nunc. Pellentesque vehicula nisl vel ante pellentesque varius. Proin dapibus volutpat urna a posuere. Praesent et nibh iaculis, placerat nisi at, porta neque. Nulla sit amet consequat lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse gravida, orci et interdum rutrum, orci neque condimentum nulla, vel viverra arcu nunc eu ante. Pellentesque feugiat eleifend volutpat. Pellentesque interdum facilisis euismod. Proin egestas diam sed laoreet pulvinar. Maecenas massa augue, tempor quis lacus nec, luctus consectetur nisi. Morbi vulputate dolor quis vestibulum tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</string>
+
+    <string-array name="sports_titles">
+        <item>Baseball</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Bowling</item>
+        <item>Cycling</item>
+        <item>Golf</item>
+        <item>Running</item>
+        <item>Soccer</item>
+        <item>Swimming</item>
+        <item>Table Tennis</item>
+        <item>Tennis</item>
+    </string-array>
+
+    <array name="sports_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_running</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_swimming</item>
+        <item>@drawable/img_tabletennis</item>
+        <item>@drawable/img_tennis</item>
+    </array>
+
+    <string-array name="sports_info">
+        <item>Here is some Baseball news!</item>
+        <item>Here is some Badminton news!</item>
+        <item>Here is some Basketball news!</item>
+        <item>Here is some Bowling news!</item>
+        <item>Here is some Cycling news!</item>
+        <item>Here is some Golf news!</item>
+        <item>Here is some Running news!</item>
+        <item>Here is some Soccer news!</item>
+        <item>Here is some Swimming news!</item>
+        <item>Here is some Table Tennis news!</item>
+        <item>Here is some Tennis news!</item>
+    </string-array>
+
+</resources>

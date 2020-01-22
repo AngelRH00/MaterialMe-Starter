@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.android.materialme.DetailActivity">
+
+        <ImageView
+            android:id="@+id/sportsImageDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/titleDetail"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/sportsImageDetail"
+            android:layout_margin="8dp"
+            android:padding="16dp"
+            android:text="@string/title_placeholder"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+        <TextView
+            android:id="@+id/newsTitleDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sportsImageDetail"
+            android:padding="16dp"
+            android:text="@string/news_placeholder"
+            android:textColor="?android:textColorSecondary" />
+
+        <TextView
+            android:id="@+id/subTitleDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newsTitleDetail"
+            android:padding="16dp"
+            android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_pellentesque_efficitur_a_purus_sit_amet_gravida_etiam_mauris_odio_consequat_molestie_lacus_sit_amet_rhoncus_tristique_turpis_sed_eget_dolor_euismod_ultrices_diam_nec_molestie_eros_suspendisse_arcu_risus_fermentum_in_erat_at_rhoncus_iaculis_neque_aliquam_erat_volutpat_aliquam_sed_turpis_sollicitudin_pulvinar_justo_ut_tempus_libero_phasellus_neque_leo_molestie_at_odio_a_sollicitudin_tristique_lectus_morbi_lorem_ipsum_facilisis_ut_purus_id_vehicula_tempor_nibh_morbi_cursus_felis_et_turpis_pharetra_eget_egestas_tortor_sollicitudin_praesent_facilisis_lorem_velit_quis_bibendum_dolor_euismod_vel_sed_malesuada_accumsan_enim_eget_mollis_cras_a_quam_lacinia_fermentum_augue_ut_consequat_nunc_pellentesque_vehicula_nisl_vel_ante_pellentesque_varius_proin_dapibus_volutpat_urna_a_posuere_praesent_et_nibh_iaculis_placerat_nisi_at_porta_neque_nulla_sit_amet_consequat_lorem_pellentesque_habitant_morbi_tristique_senectus_et_netus_et_malesuada_fames_ac_turpis_egestas_suspendisse_gravida_orci_et_interdum_rutrum_orci_neque_condimentum_nulla_vel_viverra_arcu_nunc_eu_ante_pellentesque_feugiat_eleifend_volutpat_pellentesque_interdum_facilisis_euismod_proin_egestas_diam_sed_laoreet_pulvinar_maecenas_massa_augue_tempor_quis_lacus_nec_luctus_consectetur_nisi_morbi_vulputate_dolor_quis_vestibulum_tempus_pellentesque_habitant_morbi_tristique_senectus_et_netus_et_malesuada_fames_ac_turpis_egestas" />
+    </RelativeLayout>
+</ScrollView>
